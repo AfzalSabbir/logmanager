@@ -1,12 +1,12 @@
 # Backpack\LogManager
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/backpack/logmanager.svg?style=flat-square)](https://packagist.org/packages/backpack/logmanager)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/afzalsabbir/logmanager.svg?style=flat-square)](https://packagist.org/packages/afzalsabbir/logmanager)
 [![Software License](https://img.shields.io/badge/license-dual-blue?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/laravel-backpack/logmanager/master.svg?style=flat-square)](https://travis-ci.org/laravel-backpack/logmanager)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/laravel-backpack/logmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-backpack/logmanager/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-backpack/logmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-backpack/logmanager)
+[![Build Status](https://img.shields.io/travis/afzalsabbir/logmanager/master.svg?style=flat-square)](https://travis-ci.org/afzalsabbir/logmanager)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/afzalsabbir/logmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/afzalsabbir/logmanager/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/afzalsabbir/logmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/afzalsabbir/logmanager)
 [![Style CI](https://styleci.io/repos/52886512/shield)](https://styleci.io/repos/52886512)
-[![Total Downloads](https://img.shields.io/packagist/dt/backpack/logmanager.svg?style=flat-square)](https://packagist.org/packages/backpack/crud)
+[![Total Downloads](https://img.shields.io/packagist/dt/afzalsabbir/logmanager.svg?style=flat-square)](https://packagist.org/packages/backpack/crud)
 
 A simple interface to preview, download and delete Laravel log files.
 
@@ -15,7 +15,7 @@ A simple interface to preview, download and delete Laravel log files.
 
 ``` bash
 # install the package with composer
-composer require backpack/logmanager
+composer require afzalsabbir/logmanager
 
 # [optional] Add a sidebar_content item for it
 php artisan backpack:add-sidebar-content "<li class='nav-item'><a class='nav-link' href='{{ backpack_url('log') }}'><i class='nav-icon la la-terminal'></i> Logs</a></li>"
@@ -70,7 +70,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Overwriting Functionality
 
 If you need to modify how this works in a project: 
-- create a ```routes/backpack/logmanager.php``` file; the package will see that, and load _your_ routes file, instead of the one in the package; 
+- create a ```routes/afzalsabbir/logmanager.php``` file; the package will see that, and load _your_ routes file, instead of the one in the package; 
 - create controllers/models that extend the ones in the package, and use those in your new routes file;
 - modify anything you'd like in the new controllers/models;
 
