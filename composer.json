@@ -1,5 +1,5 @@
 {
-    "name": "backpack/logmanager",
+    "name": "afzalsabbir/logmanager",
     "description": "An interface to preview, download and delete Laravel log files.",
     "keywords": [
         "backpack",
@@ -8,7 +8,7 @@
         "laravel",
         "log interface"
     ],
-    "homepage": "https://github.com/laravel-backpack/LogManager",
+    "homepage": "https://github.com/afzalsabbir/LogManager",
     "license": "proprietary",
     "authors": [
         {
@@ -21,7 +21,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "backpack/crud": "^4.1|^5.0"
+        "afzalsabbir/crud": "^4.1|^5.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "^9.0||^7.0",
